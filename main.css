@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Staatliches);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+    --color1: #f96167;
+    --color2: #fce77d;
+}
+
+.title {
+    font-family: Staatliches;
+}
+
+.text {
+    font-family: 'Open Sans', serif;
+}
+
+/* Get filter from https://codepen.io/sosuke/pen/Pjoqqp */
+.img {
+    filter: invert(59%) sepia(42%) saturate(6169%) hue-rotate(324deg) brightness(111%) contrast(108%);
+}
+
+.theme {
+    color: var(--color1);
+    background: var(--color2);
+    text-align: center;
+}
+
+input[type=submit] {
+    font-family: Staatliches;
+    font-size: large;
+    color: var(--color2);
+    background: var(--color1);
+    border-radius: 10px;
+    border-width: 0px;
+    width: 125px;
+}
