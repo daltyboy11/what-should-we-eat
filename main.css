@@ -25,6 +25,18 @@
     text-align: center;
 }
 
+a {
+    color: inherit;
+}
+
+.authorship {
+    font-family: 'Open Sans', serif;
+    color: var(--color1);
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
 input[type=submit] {
     font-family: Staatliches;
     font-size: large;
