@@ -10,7 +10,13 @@
     font-family: Staatliches;
 }
 
-.text {
+.textsmall {
+    font-family: 'Open Sans', serif;
+    font-size: x-small;
+    margin-top: 0;
+}
+
+.textnormal {
     font-family: 'Open Sans', serif;
 }
 
@@ -32,9 +38,6 @@ a {
 .authorship {
     font-family: 'Open Sans', serif;
     color: var(--color1);
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
 }
 
 input[type=submit] {
